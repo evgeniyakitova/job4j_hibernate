@@ -16,5 +16,7 @@
         <property name="format_sql">true</property>
 
         <mapping class="ru.job4j.hql.Candidate"/>
+        <mapping class="ru.job4j.model.CarModel" />
+        <mapping class="ru.job4j.model.CarBrand" />
     </session-factory>
 </hibernate-configuration>
